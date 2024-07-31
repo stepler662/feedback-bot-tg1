@@ -3,7 +3,7 @@ from aiogram import Bot, Dispatcher, F, types
 from aiogram.filters import Command
 from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 import asyncio
-import database
+import database  # Импорт модуля базы данных
 
 API_TOKEN = 'Your Token'
 
